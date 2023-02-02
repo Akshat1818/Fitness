@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('Fit-2.jpg');
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+        }
+
+        .left div {
+            font-family: 'Pacifico', cursive;
+            line-height: -3px;
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 76px;
+        }
+
+        .mid {
+            font-family: 'Passion One', cursive;
+
+            width: 50%;
+            margin: 20px auto;
+            
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+            
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            padding: 34px 12px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(204, 234, 234);
+            text-decoration: underline;
+        }
+
+        .btn {
+            font-family: 'Itim', cursive;
+            margin: 14px;
+            padding: 8px;
+            border-radius: 10px;
+            border: 5px solid rgb(94, 88, 88);
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(154, 153, 152);
+        }
+
+        .container {
+           
+            margin: 174px -127px;
+            padding: 59px;
+            width: 63%;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 475px;
+            margin: 7px auto;
+            padding: 8px;
+            border-radius: 7px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            margin: 15px auto;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="logonew.png" alt="">
+            <div>Akshat's Fitness Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Memberships</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Help
+            </button><button class="btn">
+                Contact Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Fitness club</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
